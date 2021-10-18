@@ -1,0 +1,20 @@
+[
+	{
+		"id": "1",
+		"tamaño": "mediana",
+		"precio": "120",
+		"especialidad":"Carne"
+	},
+	{
+		"id": "2",
+		"tamaño": "pequeña",
+		"precio": "100",
+		"especialidad":"Jamón"
+	},
+	{
+		"id": "3",
+		"tamaño": "grande",
+		"precio": "90",
+		"especialidad":"Queso"
+	}
+]
