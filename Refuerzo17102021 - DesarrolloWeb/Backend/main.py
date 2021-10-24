@@ -5,6 +5,7 @@
 #Importamos Flask, jsonify, request y las clases que necesitemos
 from flask import Flask, jsonify, request
 from pizza import Pizza
+from flask_cors import CORS
 
 #Crear listas de los Objetos que necesiten
 Pizzas = []
@@ -16,6 +17,7 @@ Pizzas.append(Pizza(30,'Mediana', 115, 'Champiñones'))
 
 #Iniciamos Flask
 app = Flask(__name__)
+CORS(app)
 
 #Ruta de prueba, ayuda a comprobar que está corriendo la API
 @app.route('/prueba')
